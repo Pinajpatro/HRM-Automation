@@ -20,6 +20,8 @@ public class Baseclass {
 		extent = new ExtentHtmlReporter("C:\\Users\\Pinaj\\Eclipse Project\\HRMAutomation\\Reports"+screen.getsystemdate()+".HTML");
 		report = new ExtentReports();
 		report.attachReporter(extent);
+		System.out.println(" pull test on git");
 	}
 
+	
 }
